@@ -1,0 +1,26 @@
+{
+    "name": "adelezz/tap_payment_pk",
+    "description": "very small package for tap payment Provider By Adel Abou Elezz https://www.linkedin.com/in/adel-ezz-838523b0/",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Adelezz\\TapPaymentPk\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "adel abou elezz",
+            "email": "dola.ezz1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Adelezz\\TapPaymentPk\\ServiceProvider"
+            ]
+        }
+
+}
