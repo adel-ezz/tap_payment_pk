@@ -17,4 +17,10 @@ class MakecheckoutTest extends TestCase
         $response = $this->get('/testBackage');
         $response->assertSee('https://checkout.payments.tap.company');
     }
+    function test_Make_call_back(){
+        $response = $this->get('/pay/call_back');
+        $response->assertJson('Done');
+//        $this->assertEquals(['error','Done'], $response->getContent());
+//        $response->assertSee('');
+    }
 }

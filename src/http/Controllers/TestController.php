@@ -30,7 +30,7 @@ class TestController extends Controller
     function payCallBack()
     {
         $callback = new CallbackPayment();
-        $callback->payCallBack();
+        return $callback->payCallBack();
     }
 
 }
