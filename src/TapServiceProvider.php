@@ -2,8 +2,6 @@
 
 namespace Adelezz\TapPaymentPk;
 
-use Adelezz\TapPaymentPk\http\repository\TapRepository;
-use Adelezz\TapPaymentPk\http\repository\TapRepositoryInterface;
 use Illuminate\Cache\RateLimiting\Limit;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
 use Illuminate\Http\Request;
