@@ -15,13 +15,5 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Adelezz\\TapPaymentPk\\TapServiceProvider"
-            ]
-        }
-
-    }
+    "require": {}
 }
