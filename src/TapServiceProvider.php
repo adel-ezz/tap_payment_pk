@@ -3,12 +3,12 @@
 namespace Adelezz\TapPaymentPk;
 
 use Illuminate\Cache\RateLimiting\Limit;
-use Illuminate\Foundation\Support\Providers\RouteServiceProvider ;
+use Illuminate\Foundation\Support\Providers\RouteServiceProvider;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Facades\Route;
 
-class ServiceProvider extends RouteServiceProvider
+class TapServiceProvider extends RouteServiceProvider
 {
 
 

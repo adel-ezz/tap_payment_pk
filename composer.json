@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Adelezz\\TapPaymentPk\\ServiceProvider"
+                "Adelezz\\TapPaymentPk\\TapServiceProvider"
             ]
         }
 
